@@ -1,0 +1,192 @@
+/* tablet breakpoint 992px */
+
+@media (max-width: 992px) {
+  .navigation-wrapper,
+  .hero-wrapper,
+  .about-wrapper,
+  .what-wrapper,
+  .gallery-wrapper,
+  .where-wrapper,
+  .review-wrapper {
+    width: 88%;
+  }
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 55px;
+  }
+  p {
+    line-height: 1.5;
+  }
+}
+
+/* Navigation */
+
+@media (max-width: 992px) {
+  .navigation {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .navigation-wrapper {
+    display: none;
+    flex-direction: column;
+    background-color: var(--text-color-w);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .navigation-wrapper a {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .icon {
+    display: flex;
+    cursor: pointer;
+    width: 45px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .icon:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 20px;
+  }
+}
+
+/* Hero-section */
+
+@media (max-width: 992px) {
+  .hero-section {
+    object-position: center;
+    height: 730px;
+  }
+  .hero-wrapper {
+    height: calc(100vh);
+  }
+  .hero-text {
+    font-size: 90px;
+    top: 380px;
+  }
+}
+
+/* About us */
+
+@media (max-width: 992px) {
+  .about-wrapper {
+    height: 800px;
+    gap: 30px;
+  }
+  .about-text {
+    padding-top: 105px;
+  }
+}
+
+/* What we do */
+
+@media (max-width: 992px) {
+  .icon-text {
+    font-size: xx-large;
+    text-align: center;
+    width: 130px;
+  }
+  .what-icon {
+    width: 65px;
+    height: 65px;
+  }
+  .what-icons {
+    justify-content: space-around;
+  }
+}
+
+/* Gallery */
+
+@media (max-width: 992px) {
+  .text {
+    font-size: 55px;
+    text-align: center;
+    padding: 30px;
+  }
+  .gallery-wrapper {
+    grid-template-rows: 300px 300px 300px;
+  }
+}
+
+/* Where do you want to go */
+
+@media (max-width: 992px) {
+  .where-left-block {
+    padding: 10px;
+  }
+  .where-left-block h1 {
+    font-size: 60px;
+  }
+  .where-wrapper {
+    padding: 80px 0;
+    gap: 80px;
+  }
+  .contact-btn {
+    cursor: pointer;
+    margin: 55px 0px 0px 0px;
+  }
+}
+
+/* Reviews */
+
+@media (max-width: 992px) {
+  .review-text {
+    width: 500px;
+  }
+  .review-text p {
+    height: 150px;
+  }
+  .reviews p strong {
+    line-height: 5;
+  }
+  .reviews {
+    margin-top: 15px;
+    gap: 20px;
+  }
+  .reviews img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* 4 pictures */
+
+@media (max-width: 992px) {
+  .pictures-wrapper div {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+  }
+  .pictures-wrapper div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Footer */
+
+@media (max-width: 992px) {
+  .footer-wrapper a {
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 3px;
+  }
+}
